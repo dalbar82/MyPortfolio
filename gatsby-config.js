@@ -12,24 +12,17 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        name: `projects`,
-        path: `${__dirname}/src/projects/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
-      },
-    },
+          fonts: [
+              `poppins:300,400,500,600,700`       
+          ], display: 'swap'       
+      }
+  }
   ],
   siteMetadata: {
-    title: "web warrior",
-    description: "web dev portfolio",
-    copright: "this website is copyright 2021 Web warrior",
-    contact: "damian@playworkstudios.com.au"
+    title: "Crawford Creative Services",
+    description: "Creativity start here",
+    
   }
 }
