@@ -1,12 +1,11 @@
 import React from 'react'
 import Layout from './components/Layout'
 
-export default function ErrorPage() {
+export default function About() {
     return (
         <Layout>
         <div>
-            <h1>404 error</h1>
-            <p>Sorry this page does not exist</p>
+            <h1>About us</h1>
         </div>
         </Layout>
     )
