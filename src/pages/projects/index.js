@@ -16,15 +16,16 @@ export default function Projects( {data} ) {
           <h3>Projects & Websites I've created</h3>
           <div className={styles.projects}>
               {projects.map(project => (
-                  <Link to={"/projects/" + project.frontmatter.slug} key={project.id} >
+                  
                       <div>
                       <GatsbyImage
                         image={project.frontmatter.thumb.childImageSharp.gatsbyImageData}
                         alt="not found" />
                           <h3>{ project.frontmatter.title }</h3>
                           <p>{ project.frontmatter.stack }</p>
+                          <p className={styles.desc}>{ project.frontmatter.description }</p>
                       </div>
-                  </Link>
+                  
               ))}
           </div>
           <p>Email me at { contact }</p>
@@ -42,6 +43,7 @@ export const query = graphql`query ProjectsPage {
         title
         stack
         slug
+        description
         thumb {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)

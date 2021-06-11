@@ -7,16 +7,27 @@
 .header h2 {
   font-size: 4em;
 }
+
+.home-module--header--25SFx img {
+  width: 85% !important;
+}
+
 .header h3 {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 400;
-  margin-bottom: 20px;
 }
 .btn {
   display: inline-block;
-  background: #d42990;
+  background: #353535;
+  color: white;
   padding: 10px 16px;
   border-radius: 10px;
   margin-top: 20px;
   font-weight: 500;
+  transition: all 0.4s;
+}
+.btn:hover {
+  background: white;
+  border: 1px solid #353535;
+  color: #353535;
 }
