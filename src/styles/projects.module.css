@@ -10,10 +10,11 @@
   font-weight: 400;
 }
 .projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 80px;
-  margin: 80px 20px;
+  margin: 100px auto;
+  width: 47%;
+}
+.projects > div {
+  margin: 100px auto;
 }
 .projects h3 {
   text-align: center;
@@ -26,5 +27,5 @@
 }
 
 .desc {
-  color: black;
+  color: rgb(53, 53, 53) !important;
 }

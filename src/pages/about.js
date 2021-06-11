@@ -35,12 +35,14 @@ export default function About() {
                     </ul>
                 </div>
             </div>
-            <footer>
+            <div className={styles.linkDiv}>
+            <div className={styles.linksList}>
                 <a href="https://www.linkedin.com/in/damian-lonel-48680b56/">LinkedIn</a>
                 <a href="https://github.com/dalbar82/">GitHub</a>
                 <a href="mailto:damian@playworkstudios.com.au">damian@playworkstudios.com.au</a>
                 <a href="*">0438 344 386</a>
-            </footer>
+                </div>
+            </div>
         </section>
         </Layout>
     )
