@@ -27,9 +27,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "web warrior",
+    title: "Damian Lonel Portfolio",
     description: "web dev portfolio",
-    copright: "this website is copyright 2021 Web warrior",
+    copright: "this website is copyright 2021",
     contact: "damian@playworkstudios.com.au"
   }
 }
